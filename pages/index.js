@@ -32,7 +32,7 @@ const Home = () => {
   return (
     <div className="flex flex-col gap-4 p-5 items-center">
         <h1 className='bg-blue-500 font-bold text-white text-4xl mb-6 w-fit'>Let&apos;s generate your icon.</h1>
-        <span className='text-white text-2xl'>1. Describe your icon</span>
+        <span className='text-white w-[650px] text-2xl'>1. Describe your icon</span>
         <input value={text} onChange={(e) => settext(e.target.value)} placeholder='a sad donkey' className="outline-none border-2 border-cyan-400 p-2 w-[650px] text-lg" type="text" required />
         
         <div className="flex max-w-[650px] flex-wrap items-center gap-3">
